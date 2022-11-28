@@ -20,7 +20,7 @@ const routes = [
     path: '/button',
     name: 'button',
     component: () =>
-      import(/* webpackChunkName: "b-modal" */ '../views/BButton.vue'),
+      import(/* webpackChunkName: "b-button" */ '../views/BButton.vue'),
   },
 ];
 
