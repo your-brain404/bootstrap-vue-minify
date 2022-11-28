@@ -2,6 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/alert">Alert</router-link>
+      <router-link to="/modal">Modal</router-link>
     </nav>
     <main>
       <router-view />
