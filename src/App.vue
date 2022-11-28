@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/alert">Alert</router-link>
       <router-link to="/modal">Modal</router-link>
+      <router-link to="/button">Button</router-link>
     </nav>
     <main>
       <router-view />

@@ -7,20 +7,20 @@ const routes = [
   {
     path: '/alert',
     name: 'alert',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "b-alert" */ '../views/BAlertView.vue'),
+      import(/* webpackChunkName: "b-alert" */ '../views/BAlert.vue'),
   },
   {
     path: '/modal',
     name: 'modal',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "b-modal" */ '../views/BModalView.vue'),
+      import(/* webpackChunkName: "b-modal" */ '../views/BModal.vue'),
+  },
+  {
+    path: '/button',
+    name: 'button',
+    component: () =>
+      import(/* webpackChunkName: "b-modal" */ '../views/BButton.vue'),
   },
 ];
 
