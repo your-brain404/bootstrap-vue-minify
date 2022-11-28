@@ -7,9 +7,8 @@
   </div>
 </template>
   
-  <script>
-import { BModal } from "bootstrap-vue";
-import { VBModal } from "bootstrap-vue";
+<script>
+import { BModal, VBModal } from "bootstrap-vue";
 export default {
   components: {
     BModal,

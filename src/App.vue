@@ -12,6 +12,8 @@
 </template>
 
 <style lang="scss">
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/utilities/api';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
