@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { BAlert } from "@/plugins/bootstrap-vue/src/components/alert/alert.js";
+import { BAlert } from "bootstrap-vue/src/components/alert/alert.js";
 export default {
   components: {
     BAlert,

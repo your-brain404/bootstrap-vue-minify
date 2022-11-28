@@ -8,8 +8,8 @@
 </template>
   
   <script>
-import { BModal } from "@/plugins/bootstrap-vue/src/components/modal/modal";
-import { VBModal } from "@/plugins/bootstrap-vue/src/directives/modal/modal.js";
+import { BModal } from "bootstrap-vue/src/components/modal/modal";
+import { VBModal } from "bootstrap-vue/src/directives/modal/modal.js";
 export default {
   components: {
     BModal,
@@ -22,6 +22,6 @@ export default {
 
 <style lang="scss">
 @import "bootstrap/scss/modal";
-@import "@/plugins/bootstrap-vue/src/components/modal";
+@import "bootstrap-vue/src/components/modal";
 </style>
   
